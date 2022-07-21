@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import '../../commons/intl/generated/l10n.dart';
-import 'setting/app_setting_bloc.dart';
+import 'setting_local/app_setting_bloc.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
