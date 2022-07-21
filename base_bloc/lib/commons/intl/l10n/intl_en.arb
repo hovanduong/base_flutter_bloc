@@ -1,0 +1,28 @@
+{
+    "appLanguage": "English",
+    "commonException": "Please try again later",
+    "signupPhoneNumberTitle": "Phone Number",
+    "signupSubmit": "Submit",
+    "signupHint": "Input Phone Number",
+    "signupInvalidPhoneNumber": "Invalid Phone Number",
+    "signupWrongCode": "Wrong code",
+    "signupUserDisable": "User Disable",
+    "signupExprireSession": "Expire Session",
+    "createClassTitle": "Create Class",
+    "createClassNameHint": "Input Name",
+    "createClassCreate": "Create",
+    "inputPhoneNumber": "Input phone number",
+    "addMemberSuccess": "Add Member Success",
+    "registerInvalidEmail":"Invalid Email",
+    "registerInvalidPassword":"Invalid Password",
+    "registerEmailAlreadyExists":"Email Already Exists",
+    "checkCharacterLengthEmail":"Sorry, your username must be between 6 and 30  in character length",
+    "checkCharacterLengthPassword":"Use 8 or more characters and a combination of letters, numbers and symbols",
+    "checkInvalidSuccess":"Success",
+    "signInEmailOr":"Or",
+    "signInWithEmail":"Login with email",
+    "signInWithPhone":"Sign in with phone",
+    "signIn":"Sign in",
+    "lastLine": ""
+  
+}

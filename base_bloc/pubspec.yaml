@@ -11,25 +11,66 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
-  #Bloc
-  flutter_bloc: ^8.0.1
+  # UI
+  cupertino_icons: ^1.0.2
+  visibility_detector: ^0.2.2
+  pull_to_refresh: ^2.0.0
+
+  #BLOC
   bloc_concurrency: ^0.2.0
+  flutter_bloc: ^8.0.1
   bloc: ^8.0.3
-  freezed_annotation: ^2.1.0
+  freezed_annotation: ^2.0.3
 
   #Utils
-  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.0
+  flutter_local_notifications: ^9.4.0
   equatable: ^2.0.3
   dartz: ^0.10.1
+  easy_debounce: ^2.0.2+1
 
-  #Format
-  flutter_lints: ^2.0.1
+  #Firebase
+  firebase_core: ^1.13.1
+  firebase_analytics: ^9.1.2
+  #firebase_app_check: ^0.0.6+7
+  firebase_auth: ^3.3.10
+  cloud_firestore: ^3.1.10
+  cloud_functions: ^3.2.10
+  firebase_messaging: ^11.3.0
+  firebase_storage: ^10.2.9
+  firebase_crashlytics: ^2.5.3
+  firebase_remote_config: ^2.0.2
+  firebase_dynamic_links: ^4.1.1
+
+  #Service
+  json_annotation: ^4.4.0
+  device_info_plus: ^3.2.3
+  event_bus: ^2.0.0
+  keyboard_dismisser: ^2.0.1
+  fluttertoast: ^8.0.9
 
 dev_dependencies:
+  #Testing
   flutter_test:
     sdk: flutter
+  flutter_intl: ^0.0.1
+  mockito: ^5.0.17
+
+  # Generate
+  freezed: ^2.0.3
+  build_runner: ^2.1.7
+  json_serializable: ^6.1.5
+
+  #Format
+  flutter_lints: ^1.0.0
 
 flutter:
   uses-material-design: true
 
+flutter_intl:
+  enabled: true
+  arb_dir: lib/commons/intl/l10n
+  output_dir: lib/commons/intl/generated

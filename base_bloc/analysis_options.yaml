@@ -8,8 +8,29 @@
 # The following line activates a set of recommended lints for Flutter apps,
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
-
+analyzer:
+  exclude:
+    [
+      test/**/**.mocks.dart,
+      lib/commons/intl/**/*.dart,
+      l10n.dart,
+      -**/*.g.dart,
+      -**/*.freezed.dart,
+    ]
+  errors:
+    invalid_annotation_target: ignore
 linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at
+  # https://dart-lang.github.io/linter/lints/index.html.
+  #
+  # Instead of disabling a lint rule for the entire project in the: true
+  # section below, it can also be suppressed for a single line of code: true
+  # or a specific dart file by using the `// ignore: name_of_lint` and: true
+  # `// ignore_for_file: name_of_lint` syntax on the line or in the file: true
+  # producing the lint.: true
   rules:
     default_value_on_required_parameter: true
     avoid_dynamic_calls: true
@@ -212,3 +233,5 @@ linter:
     package_names: true
     secure_pubspec_urls: true
     sort_pub_dependencies: false
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
