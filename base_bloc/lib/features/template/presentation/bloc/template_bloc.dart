@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../../domain/usecase/splash_get_current_user.dart';
+import '../../domain/usecase/template_get.dart';
 
 part 'template_bloc.freezed.dart';
 part 'template_event.dart';

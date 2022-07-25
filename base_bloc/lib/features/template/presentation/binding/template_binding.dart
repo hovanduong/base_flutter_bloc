@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../data/tempalate_repository_impl.dart';
-import '../../domain/usecase/splash_get_current_user.dart';
+import '../../domain/usecase/template_get.dart';
 import '../bloc/template_bloc.dart';
 
 class SplashBinding {
